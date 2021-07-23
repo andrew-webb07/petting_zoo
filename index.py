@@ -4,23 +4,23 @@ from slithering import Leech, Lizard, Salamander, Snake, Worm
 from attractions import PettingZoo, SnakePit, Wetlands
 
 roberto = Camel("Roberto", "alpaca", "midday", "grain", 111555)
-chip = Dog("Chip", "Mut", "morning", "dog food")
-paws = Cat("Paws", "American Bobtail", "midday", "cat food")
-goaty = Goat("Goaty", "Wild Goat", "evening", "grass")
-shadowfax = Horse("Shadowfax", "Felaróf", "morning", "sugar")
-sharky = Shark("Sharky", "Great White", "blood")
-goldy = Goldfish("Goldy", "goldfish", "pellets")
-catty = Catfish("Catty", "Catfish", "pellets")
-flipper = Dolphin("Flipper", "Stripped Dolphin", "fish")
-free_willy = Whale("Free Willy", "Killer Whale", "big fish")
-snakey = Snake("Snakey", "Cobra", "toads")
-eathworm_jim = Worm("Earthworm Gym", "Worm", "bugs")
-bob = Salamander("Bob", "Lizard", "bugs")
-lizardy = Lizard("Lizardy", "Lizard", "bugs")
-leechy = Leech("Leechy", "Medicinal Leech", "blood")
+chip = Dog("Chip", "Mut", "morning", "dog food", 11)
+paws = Cat("Paws", "American Bobtail", "midday", "cat food", 22)
+goaty = Goat("Goaty", "Wild Goat", "evening", "grass", 33)
+shadowfax = Horse("Shadowfax", "Felaróf", "morning", "sugar", 44)
+sharky = Shark("Sharky", "Great White", "blood", 55)
+goldy = Goldfish("Goldy", "goldfish", "pellets", 66)
+catty = Catfish("Catty", "Catfish", "pellets", 77)
+flipper = Dolphin("Flipper", "Stripped Dolphin", "fish", 88)
+free_willy = Whale("Free Willy", "Killer Whale", "big fish", 99)
+snakey = Snake("Snakey", "Cobra", "toads",555)
+eathworm_jim = Worm("Earthworm Gym", "Worm", "bugs", 4234)
+bob = Salamander("Bob", "Lizard", "bugs", 333)
+lizardy = Lizard("Lizardy", "Lizard", "bugs", 222)
+leechy = Leech("Leechy", "Medicinal Leech", "blood", 12121)
 
-roberto.chip_num = 555
-print(roberto.chip_num)
+# roberto.chip_num = 666
+
 
 my_petting_zoo = PettingZoo("Lewis Adventure", "Come pet some animals")
 my_snake_pit = SnakePit("Temple of Doom", "Don't come here...I mean why?")
@@ -53,3 +53,6 @@ for animal in my_marina.animals:
 print(my_petting_zoo.last_critter_added)
 print(my_snake_pit.last_critter_added)
 print(my_marina.last_critter_added)
+roberto.feed()
+paws.feed()
+chip.feed()
