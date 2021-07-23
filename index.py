@@ -3,7 +3,7 @@ from swimming import Catfish, Dolphin, Goldfish, Shark, Whale
 from slithering import Leech, Lizard, Salamander, Snake, Worm
 from attractions import PettingZoo, SnakePit, Wetlands
 
-roberto = Camel("Roberto", "alpaca", "midday", "grain")
+roberto = Camel("Roberto", "alpaca", "midday", "grain", 111555)
 chip = Dog("Chip", "Mut", "morning", "dog food")
 paws = Cat("Paws", "American Bobtail", "midday", "cat food")
 goaty = Goat("Goaty", "Wild Goat", "evening", "grass")
@@ -18,6 +18,9 @@ eathworm_jim = Worm("Earthworm Gym", "Worm", "bugs")
 bob = Salamander("Bob", "Lizard", "bugs")
 lizardy = Lizard("Lizardy", "Lizard", "bugs")
 leechy = Leech("Leechy", "Medicinal Leech", "blood")
+
+roberto.chip_num = 555
+print(roberto.chip_num)
 
 my_petting_zoo = PettingZoo("Lewis Adventure", "Come pet some animals")
 my_snake_pit = SnakePit("Temple of Doom", "Don't come here...I mean why?")
@@ -46,3 +49,7 @@ for animal in my_snake_pit.animals:
     print(f'You can find {animal.name} the {animal.species} in {my_snake_pit.attraction_name}')
 for animal in my_marina.animals:
     print(f'You can find {animal.name} the {animal.species} in {my_marina.attraction_name}')
+
+print(my_petting_zoo.last_critter_added)
+print(my_snake_pit.last_critter_added)
+print(my_marina.last_critter_added)
