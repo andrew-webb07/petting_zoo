@@ -1,6 +1,4 @@
-from walking import Camel, Cat, Dog, Goat, Horse
-from swimming import Catfish, Dolphin, Goldfish, Shark, Whale
-from slithering import Leech, Lizard, Salamander, Snake, Worm
+from animals import Camel, Cat, Dog, Goat, Horse, Catfish, Dolphin, Goldfish, Shark, Whale, Leech, Lizard, Salamander, Snake, Worm
 from attractions import PettingZoo, SnakePit, Wetlands
 
 roberto = Camel("Roberto", "alpaca", "midday", "grain", 111555)
