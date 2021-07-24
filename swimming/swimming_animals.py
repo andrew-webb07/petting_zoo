@@ -1,5 +1,5 @@
 from datetime import date
-from animal import Animal
+from animals import Animal
 
 class Catfish(Animal):
     def __init__(self, name, species, food, chip_num):
